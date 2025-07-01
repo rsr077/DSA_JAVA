@@ -20,18 +20,20 @@ import java.util.Scanner;
 
 public class Fibo {
     public static void main(String[] args) {
-     Scanner in = new Scanner(System.in);
+        int n = 7;
+      int a = 0;
+      int b = 1;
 
-     int n = in.nextInt();
+      int count = 2;
 
-     int p = 0;
-     int i = 1;
+      while (count <=n) {
+          int  temp = b;
+           b = b +  a;
+            a= temp;
+            count ++ ;
+      }
 
-     int count = 2;
-
- 
- while (count   <=n) {
-  
+      System.out.println(b);
+     
  }
     }
-}
