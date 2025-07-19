@@ -1,5 +1,5 @@
 package Random-Question.Beginner.hi;
 
-public class Fibo {
+public class Practical {
   
 }
