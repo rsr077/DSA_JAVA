@@ -41,13 +41,13 @@ class College extends Student {
 public class HierarchicalExample {
     public static void main(String[] args) {
         Address obj1 = new Address();
-        obj1.getStudentDetails("Rajeev Singh", 25);
+        obj1.getStudentDetails("Rajeev Singh", 24);
         obj1.getAddress("Bihar, India");
         System.out.println("=== Address Details ===");
         obj1.displayAddress();
 
         College obj2 = new College();
-        obj2.getStudentDetails("Rajeev Singh", 25);
+        obj2.getStudentDetails("Rajeev Singh", 24);
         obj2.getCollege("ABC College");
         System.out.println("\n=== College Details ===");
         obj2.displayCollege();
